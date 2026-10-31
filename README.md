@@ -52,4 +52,4 @@ docker compose up -d
 ## Notes
 - The SonarQube address in the pipeline is masked (`3.134.xx.xx`). Replace it with your own SonarQube host.
 - In the Jenkins job, set the Script Path to `jenkins_declarative_script.groovy`.
-- The pipeline checks out this repository (`jenkins-cicd-kubernetes`) from the `main` branch.
+- The pipeline checks out this repository (`jenkins_cicd_kubernetes`) from the `main` branch.
