@@ -30,7 +30,7 @@ pipeline {
                     extensions: [],
                     userRemoteConfigs: [[
                         credentialsId: 'git-credentials',
-                        url: 'https://github.com/signinvipin/jenkins_cicd_k8s.git'
+                        url: 'https://github.com/signinvipin/jenkins-cicd-kubernetes.git'
                     ]]
                 ])
             }
@@ -48,7 +48,7 @@ pipeline {
                                     -Dsonar.projectKey=demo-jenkins_cicd \\
                                     -Dsonar.sources=${WORKSPACE} \\
                                     -Dsonar.exclusions=**/*.java \\
-                                    -Dsonar.host.url=http://3.134.76.127:9001 \\
+                                    -Dsonar.host.url=http://3.134.xx.xx:9001 \\
                                     -Dsonar.login=${SONAR_TOKEN}
                             """
                         }

@@ -62,15 +62,15 @@
 <!-- Optional based on situation -->
 
     <scm>
-        <connection>scm:git:https://github.com/signinvipin/jenkins_cicd_k8s.git</connection>
-        <developerConnection>scm:git:https://github.com/signinvipin/jenkins_cicd_k8s.git</developerConnection>
-        <url>https://github.com/signinvipin/jenkins_cicd_k8s</url>
+        <connection>scm:git:https://github.com/signinvipin/jenkins-cicd-kubernetes.git</connection>
+        <developerConnection>scm:git:https://github.com/signinvipin/jenkins-cicd-kubernetes.git</developerConnection>
+        <url>https://github.com/signinvipin/jenkins-cicd-kubernetes</url>
     </scm>
 
 <!-- We are not using svn so we can skip version 
     <scm>
-        <connection>scm:svn:http://192.168.33.11:8081/subversion/</connection>
-        <developerConnection>scm:svn:http://192.168.33.11:8081/subversion/</developerConnection>
+        <connection>scm:svn:http://192.168.xx.xx:8081/subversion/</connection>
+        <developerConnection>scm:svn:http://192.168.xx.xx:8081/subversion/</developerConnection>
     </scm>
 -->
 <!-- We are not using nexus artifact repository for release and snapshot, so we can skip this part

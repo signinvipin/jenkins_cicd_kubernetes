@@ -14,7 +14,7 @@ services:
 
       - SONARQUBE_JDBC_USERNAME=admin
 
-      - SONARQUBE_JDBC_PASSWORD=Admin123
+      - SONARQUBE_JDBC_PASSWORD=${DB_PASSWORD:?set DB_PASSWORD in .env}
 
       - SONARQUBE_JDBC_URL=jdbc:postgresql://db:5432/sonarqube
 
@@ -47,7 +47,7 @@ services:
 
       - POSTGRES_USER=admin
 
-      - POSTGRES_PASSWORD=Admin123
+      - POSTGRES_PASSWORD=${DB_PASSWORD:?set DB_PASSWORD in .env}
 
       - POSTGRES_DB=sonarqube
 
