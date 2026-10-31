@@ -30,7 +30,7 @@ pipeline {
                     extensions: [],
                     userRemoteConfigs: [[
                         credentialsId: 'git-credentials',
-                        url: 'https://github.com/signinvipin/jenkins-cicd-kubernetes.git'
+                        url: 'https://github.com/signinvipin/jenkins_cicd_kubernetes.git'
                     ]]
                 ])
             }
