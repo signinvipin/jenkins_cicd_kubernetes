@@ -1,4 +1,4 @@
-# jenkins-cicd-kubernetes
+# jenkins_cicd_kubernetes
 
 A Jenkins declarative pipeline that builds a Spring Boot (Java 17) app, runs SonarQube analysis, builds and pushes a Docker image, and deploys it to Kubernetes.
 
