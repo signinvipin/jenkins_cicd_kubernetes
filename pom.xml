@@ -62,9 +62,9 @@
 <!-- Optional based on situation -->
 
     <scm>
-        <connection>scm:git:https://github.com/signinvipin/jenkins-cicd-kubernetes.git</connection>
-        <developerConnection>scm:git:https://github.com/signinvipin/jenkins-cicd-kubernetes.git</developerConnection>
-        <url>https://github.com/signinvipin/jenkins-cicd-kubernetes</url>
+        <connection>scm:git:https://github.com/signinvipin/jenkins_cicd_kubernetes.git</connection>
+        <developerConnection>scm:git:https://github.com/signinvipin/jenkins_cicd_kubernetes.git</developerConnection>
+        <url>https://github.com/signinvipin/jenkins_cicd_kubernetes</url>
     </scm>
 
 <!-- We are not using svn so we can skip version 
