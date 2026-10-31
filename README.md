@@ -23,7 +23,7 @@ Developer pushes to GitHub (main)
                                 ↓
          [Staging] → [Approval] → [Production]
 ```
-The pipeline in this folder covers clone, build, image push and deploy. Staging and approval stages are not implemented here.
+The pipeline in this repository covers clone, build, image push and deploy. Staging and approval stages are not implemented here.
 
 ## Files
 | File | Purpose |
